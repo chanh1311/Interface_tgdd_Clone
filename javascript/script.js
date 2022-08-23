@@ -224,3 +224,35 @@ if(rightbtnCategory && leftbtnCategory && imgItemsNumberCategory&& titleImgCateg
         // Use function auto Slider
         setInterval(imgAuto,5000);
 }
+
+
+// ********************Hidden Discount Code***************************
+// Get element
+var btnDiscountCode = document.querySelector("#discount-code");
+var inputDiscountHidden = document.querySelector(".cart-code-input");
+
+if(btnDiscountCode){
+    btnDiscountCode.addEventListener('click',function () {
+        if(inputDiscountHidden.hasAttribute('hidden')){
+            inputDiscountHidden.removeAttribute('hidden');
+        }else{
+            inputDiscountHidden.setAttribute('hidden','true');
+        }
+        
+    });
+}
+
+// ********************Hidden Input Address***************************
+// Get element
+var btnInputAddress = document.querySelector("#btnInputAddress");
+var inputAddressHidden = document.querySelector(".cart-information-main-address");
+if(btnInputAddress){
+    btnInputAddress.addEventListener('click',function () {
+        if(inputAddressHidden .hasAttribute('hidden')){
+            inputAddressHidden.removeAttribute('hidden');
+        }else{
+            inputAddressHidden.setAttribute('hidden','true');
+        }
+        
+    });
+}
