@@ -1251,11 +1251,11 @@ header{
 
 /* Pagging */
 /* change color pagging */
-.page-item.active .page-link{
+/* .page-item.active .page-link{
     background-color: rgb(220,53,69);
     border-color: rgb(220,53,69);
     color: #fff;
-}
+} */
 
 
 
@@ -1847,6 +1847,120 @@ header{
 
 
 
+/* ********************************* Histoty Order****************************** */
+.order-history{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.order-history-left{
+    flex-basis: 25%;
+}
+
+
+
+
+.order-history-left li{
+   padding: 8px;
+}
+.order-history-left li a{
+    color: #444;
+    font-size: 15.5px;
+ }
+/* .order-history-left li:active{
+    background-color: rgb(232,240,255);
+ } */
+
+.order-history-right{
+    flex-basis: 75%;
+    margin-left: 5px;
+}
+
+.order-history-right-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-history-right-top p{
+   font-size: 18px;
+}
+.order-history-right-top span{
+    font-weight: bold;
+ }
+
+.order-history-right-top ul{
+    display: flex;
+    
+}
+
+.order-history-right-top ul li{
+    padding: 0 7px;
+    
+}
+
+.order-history-right-top ul li:last-child a{
+    font-weight: bold;
+    font-size: 17px;
+     
+ }
+.order-history-right-top ul li:last-child a{
+   font-weight: bold;
+   font-size: 17px;
+    
+}
+/* bottom */
+
+.order-history-right-bottom{
+    
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 23px 18px;
+}
+
+.order-history-right-bottom h4{
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+
+
+/************************ Info ************************/
+.order-history-right-bottom-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+}
+
+
+
+.order-history-right-bottom-info div{
+    flex-basis: 49%;
+}
+
+/* *************************Address************************ */
+.order-history-right-bottom-address ul{
+   padding-left: 0;
+}
+.order-history-right-bottom-address ul li{
+    padding: 3px 0;
+ }
+
+ .order-history-right-bottom-address-btn{
+    padding-left: 18px;
+ }
+
+ .order-history-right-bottom-address-btn a + a{
+    margin-left: 10px;
+ }
+
+ .order-history-right-bottom-button{
+    text-align: center;
+    margin: 13px auto;
+ }
+
+ .order-history-right-bottom-button button{
+   width:30%;
+ }
 
 
 

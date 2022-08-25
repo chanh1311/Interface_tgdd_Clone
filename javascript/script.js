@@ -256,3 +256,8 @@ if(btnInputAddress){
         
     });
 }
+
+// ************************ DataTables *****************************//
+$(document).ready(function () {
+    $('#dataHistoryOrder').DataTable();
+});
